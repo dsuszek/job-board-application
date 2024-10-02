@@ -10,4 +10,8 @@ public class ApplicationDbContext : DbContext
     }
     
     public DbSet<Job> Jobs { get; set; }
+    public DbSet<Job> Employers { get; set; }
+    public DbSet<Job> JobApplications { get; set; }
+    public DbSet<Job> JobCategories { get; set; }
+    public DbSet<Job> Users { get; set; }
 }
